@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
     background-color: white;
     text-align:center;
@@ -9,40 +10,123 @@ body{
     color: #111
     
 }
+div{
+    text-align: right;
+    padding: 1px;
+    margin: 10px;
+}
+
 
 form{
+    font-size: smaller;
     background-color: white;
-    text-align: center;
+    text-align: left;
     border: 1px solid lightgray;
     border-width: 1px;
     border-radius: 3px;
-    border-top-right-radius: 10px 10px 10px;
-    margin: 20px;
-    padding-left: 20px;
-    padding: 5px;
+    width   : 350px;
+    height  : 280px; 
+    margin: auto;
+    padding: 2px;
     
+  
+}
+
+#my_container{
+    padding: 1px;
+    margin: 10px;
+    font-size: large ;
+    color:rgb(26, 24, 24);
+}
+
+#ema{
+    padding: 1px; 
+    margin: 10px;
+    text-align: right;
+}
+
+#Email{
+    padding: 3px;
+    width: 324px;
+    margin: 10px;
+
+}
+
+#passw{
+    padding: 1px;
+    margin: 40px;
+}
+#pass{
+    padding: 3px;
+    margin: 85px;
     
 }
 
+#Password{
+    padding: 3px;
+    width: 324px;
+    margin: 12px;
+    text-align: 10px;
+}
+
+
+h1{
+    color: #111;
+    text-align: left;
+    padding: 2px;
+}
+
+
+h2{
+    color: rgb(179, 169, 169);
+    text-align: center;
+    font-size: 14px;
+    
+}
 
 
 h3{
     color: black;
+    display: 1px;
+    margin:  8px ;
+    font-style: 10px;
+    font-size: 13px;
+
+    
+}
+#help{
+    color: blue;
+    text-align: left;
+}
+
+#condition{
     text-align: center;
 }
-h5{
+
+
+h4{
     color: black;
     text-align: center;
+    padding: 1px;
+    font-size: 11px;
+    
 }
+
 
 button{
     text-align:center;
     background-color: #f0c14b;  
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
-    padding: 5px;
+    padding: 3px;
     border-radius: 1px;
-    margin: 5px;
+    margin: 12px;
+    width: 333px;
     
  
 } 
+#new{
+    width: 340px;
+    margin: 3px;
+    background-color: azure;
+}
